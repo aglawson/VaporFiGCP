@@ -8,7 +8,7 @@ exports.helloWorld = async (req, res) => {
   const privateKey = process.env.privateKey;
   const rpcUrl = process.env.rpcUrl;
 
-  //compound(uint256[] tokenIds)
+  //claim(uint256[] ids, bool unstake)
   const vpndAbi = [
     {
       "inputs": [
