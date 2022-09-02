@@ -1,0 +1,9 @@
+{
+    "name": "sample-http",
+    "version": "0.0.1",
+    "dependencies": {
+      "ethers": "^5.7.0",
+      "dotenv": "10.0.0"
+    }
+  }
+  
